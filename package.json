@@ -1,10 +1,10 @@
 {
   "name": "fundamentuswebscraper",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Scraper for fundamentus website and generate excel file with data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "fundamentus",
-    "webscrapper",
+    "webscraper",
     "excel",
     "xlsx",
     "stocks"
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/thiagodantasv/fundamentusWebScraper/issues"
   },
-  "homepage": "https://github.com/thiagodantasv/fundamentusWebScraper#readme"
+  "homepage": "https://github.com/thiagodantasv/fundamentusWebScraper#readme",
+  "dependencies": {
+    "excel4node": "^1.7.2",
+    "puppeteer": "^10.4.0"
+  }
 }
